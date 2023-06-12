@@ -1,0 +1,48 @@
+#div1{
+background-color: black;
+width: 200px;
+height: 200px;
+border-color: black;
+border: solid 2px;
+background-image: linear-gradient( to bottom left, blue, green, red);
+
+
+}
+
+#div2{
+background-color: red;
+width: 200px;
+height: 200px;
+margin-top: 20px;
+border-color: black;
+border: solid 2px;
+background-image: linear-gradient(-70deg, yellow 5%, purple 75%);
+
+}
+
+p{
+    background-image: linear-gradient(to bottom, rgba(255,255,255, 1), rgba(0,0,0,0.5) 70%);
+}
+
+#div3{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border: solid 2px;
+    background-image: radial-gradient(circle at center, rgb(99, 168, 233), pink)
+}
+
+#div4{
+    background-color: black;
+width: 200px;
+height: 200px;
+border-color: black;
+border: solid 2px;
+margin-top: 20px;
+background-image: repeating-radial-gradient(10px, black, white);
+}
+
+#div4:hover{
+    background-image: repeating-radial-gradient(10px, white, black);
+}

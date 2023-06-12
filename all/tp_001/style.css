@@ -1,0 +1,72 @@
+*{
+    background: radial-gradient( circle at center top, #CCDAE0, #EDF2F4);
+}
+
+.cat{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    border: 1px #8D99AE solid;
+}
+ #ban img {
+   
+    width: 800px;
+    height: 200px;
+}
+
+header{
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    border-bottom: 1px #000000 dotted;
+    font-size: 32px;
+}
+
+.article{
+    border: #000000 1px solid;
+}
+
+footer{
+    text-align: end;
+    list-style-type: none;
+
+}
+
+footer ul{
+  
+    list-style-type: none;
+
+}
+
+a{
+    color: red;
+}
+
+a:visited {
+    color: grey;
+    
+}
+
+ a:hover{
+    color:#2B2D42
+ }
+ 
+
+ span{
+    color: red
+ }
+
+ #blog{
+    
+ }

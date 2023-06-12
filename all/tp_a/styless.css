@@ -1,0 +1,31 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#required{
+    color: red;
+}
+
+#my_form{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #f7a60f;
+}
+
+#debut_contact{
+    justify-self: center;
+    align-self: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+p{
+    font-size: 3em;
+    font-weight: bold;
+    color: #f7a60f;
+    text-align: center;
+}

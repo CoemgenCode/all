@@ -1,0 +1,16 @@
+body{
+
+    background-color: purple;
+}
+
+#c1{
+    
+    
+    margin: auto;
+    display: block;
+    margin-top: 300px;
+    box-shadow: -8px -10px 10px white, 8px 10px 10px black;
+   width: 80%;
+
+}
+

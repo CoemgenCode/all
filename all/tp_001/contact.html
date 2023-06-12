@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="ban">
+        <h1>Tp_01</h1>
+        <nav>
+            <ul style="list-style-type:none">
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="#article3"><li>Blog</li></a>
+                <a href="blog.html"><li>Galerie</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <form method="post" action="index.php">
+        <fieldset>
+            <legend>Je suis une légende</legend>
+            <div>
+                <label for="prenom">Prénom <span>*</span></label>
+                <input type="text" id="prenom" placeholder="Prenom" maxlength="20" minlength="2">
+            </div>
+            <div>
+                <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" placeholder="email">
+            </div>
+            <div>
+                <label for="area">Message :</label><br>
+                <textarea name="area" id="area" cols="70" rows="10"></textarea>
+            </div>
+            <div>
+                
+                <input id="checkbox" type="checkbox" checked>
+                <label for="checkbox">Envoyer une copie</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="submit" value="Reset">
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <ul>
+            <a href=""><li>fictive 1</li></a>
+            <a href=""><li>fictive 2</li></a>
+            <a href=""><li>fictive 4</li></a>
+            <a href=""><li>fictive 5</li></a>
+        </ul>
+    </footer>
+
+</body>
+</html>

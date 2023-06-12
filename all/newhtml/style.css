@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+
+h3{
+
+color: blue;
+font-size: 1.5em;
+}
+
+p{
+    background-color: grey;
+}
+
+strong{
+font-weight: 400;
+color: yellowgreen;
+}
+
+em{
+font-style: normal;
+text-decoration: underline;
+font-size: 1.5em;
+color : orange;
+}
+
+#para{
+    background-color: pink;
+}
+
+#ump{
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+}
+

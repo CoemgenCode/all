@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(215, 145, 255);
+    margin: 0 auto;
+}
+
+
+p{
+    background-color: rgb(218, 214, 214);
+    border: 2px rgb(77, 233, 77) solid;
+}
+
+
+#p1{
+height: 100px;
+padding: 20px;
+margin: 0 auto;
+}
+
+#p2{
+    width: 50%;
+    padding: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#p3{
+    width: 200px;
+    height: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
+

@@ -1,0 +1,29 @@
+ tr, td {
+    border: 2px solid;
+  
+}
+
+th{
+    background-color: rgb(154, 154, 245);
+    border: 2px solid;
+    
+}
+
+
+table  {
+    border-collapse: collapse;
+    border: thick double purple;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+caption{
+    text-align: center;
+    color: purple;
+    margin-bottom: 3px;
+}
+
+#tbody{
+    background-color: blue;
+}

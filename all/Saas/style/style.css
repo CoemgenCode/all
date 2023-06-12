@@ -1,0 +1,42 @@
+.socialNetwork, .cardList {
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: helvetica, verdana, arial, sans-serif;
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+/**************
+
+RESET CSS 
+
+************/
+.cardList {
+  flex-direction: row-reverse;
+}
+
+header .primaryNav {
+  color: black;
+}
+header .primaryNav__a {
+  font-size: 3rem;
+  -webkit-text-decoration: red underline;
+          text-decoration: red underline;
+}
+header .primaryNav__a--active {
+  -webkit-text-decoration: underline yellow;
+          text-decoration: underline yellow;
+}/*# sourceMappingURL=style.css.map */

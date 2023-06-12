@@ -1,0 +1,33 @@
+@import './Utils/Variables/variables';
+@import './Utils/Mixins/mixins';
+@import './Utils/Extends/extends.scss';
+@import './Utils/Base/base';
+
+
+/**************
+
+RESET CSS 
+
+************/
+.cardList{
+    @extend %flexCard;
+    flex-direction: row-reverse
+}
+
+.socialNetwork{
+    @extend %flexCard;
+}
+
+
+header {
+    & .primaryNav {
+        color: $textColor;
+        &__a {
+            font-size: 3rem;
+            text-decoration: red underline;
+            &--active {
+    text-decoration: underline yellow;
+            }
+        }
+    }
+    }

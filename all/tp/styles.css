@@ -1,0 +1,71 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    color:#e94c39;
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+}
+
+#paragraphe{
+    border: solid 2px #5dc2ee;
+}
+
+.image{
+    text-align: center;
+    margin: 20px;
+}
+
+.accroche{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+    background-color: #5dc2ee;
+    border: solid 2px black;
+    width: 800px;
+    padding: 20px;
+}
+
+.page_code{
+    text-align: center;
+    text-decoration: underline;
+}
+.page_css{
+    text-align: center;
+    text-decoration: underline;
+}
+.page_js{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bouton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #e94c39;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);    
+}
+
+.button{
+    text-align: center;
+}
+
+.iframe{
+    text-align: center;
+}

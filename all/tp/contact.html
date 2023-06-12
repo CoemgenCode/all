@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Nous contacter</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="navigation-bar">
+          
+          
+            <div id="navigation-container">
+        
+              <img href="accueil.html" id="logo" src="./images/adrar.png">
+        
+              <ul class="menu">
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JAVASCRIPT</a></li>
+                <li><a href="api.html">API</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+        </header>
+
+    <div id="container">
+        <div id="debut_contact">
+        <p>Contactez nous</p>
+        <img src="./images/adrar.png" alt="Logo_adrar_pole_num">
+        </div>
+        <div id="my_form">
+            <form action="post">
+            <fieldset>
+            
+             <div id="Prenom"><label for="Prénom">Prénom</label>
+               <input type="text" maxlength="20" minlength="2" placeholder="mon prénom" name="Prenom" required><span id="required">*</span><br></div>
+                    <label for="Nom">Nom</label>
+                        <input type="text" maxlength="20" minlength="2" placeholder="mon nom" name="Nom" id="Nom" required><span id="required">*</span><br>
+                            <label for="Email">Email</label>
+                                 <input type="text" placeholder="monemail@fai.com" name="Email" id="Email"><span id="required">*</span><br>
+                            <label for="Commentaire">Votre message</label><br>
+                        <textarea name="commentaire" cols="70" rows="20">J'aimerais savoir ...</textarea><br>
+                        <input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox">Recevoir un e-mail de confirmation ?</label><br>
+                        
+                    <label for="date">Date de mon commentaire</label>
+                <input type="date" id="date"><br>
+                <input type="button" name="Envoyer" value="Envoyer"><input type="reset" name="Reset" value="Reset"><br>
+            </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
